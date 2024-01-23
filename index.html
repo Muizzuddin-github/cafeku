@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./output.css" />
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=clash-display@700,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600;700;800&family=Noto+Sans:wght@400;500;600&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600;700;800&family=Noto+Sans:wght@400;500;600&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./assets/banner.png" />
+    <script src="./script.js" async></script>
+    <title>Cafeku</title>
+  </head>
+  <body class="font-raleway">
+    <nav
+      class="bg-ForestGreen fixed z-20 left-0 right-0 p-4 top-0 md:left-10 md:right-10 md:top-10 md:rounded-[6.25rem] md:px-10 lg:flex lg:gap-x-10 lg:right-20 lg:left-20 lg:justify-between shadow-lg"
+    >
+      <section class="flex justify-between items-center">
+        <section class="flex items-center gap-2">
+          <img src="./assets/shape.svg" alt="logo" />
+          <h1
+            class="text-white font-semibold text-xl md:text-2xl lg:text-[28px] font-clash-display"
+          >
+            Cafeku
+          </h1>
+        </section>
+        <section class="toggle flex flex-col gap-1 cursor-pointer lg:hidden">
+          <section
+            class="w-4 h-1 bg-white rounded-sm self-end transition-all ease-linear"
+          ></section>
+          <section
+            class="w-8 h-1 bg-white rounded-sm transition-all ease-linear"
+          ></section>
+          <section
+            class="w-4 h-1 bg-white rounded-sm transition-all ease-linear"
+          ></section>
+        </section>
+      </section>
+
+      <section
+        class="menu absolute z-0 h-screen bg-ForestGreen left-0 right-0 top-[3.84rem] text-white w-full gap-4 -translate-y-[120%] transition-all ease-linear md:rounded-xl py-5 lg:translate-y-0 lg:static lg:h-auto lg:py-0 lg:rounded-none lg:pl-8 flex lg:justify-between lg:items-center"
+      >
+        <section
+          class="flex px-8 justify-between lg:items-center lg:px-0 lg:pl-20 lg:w-1/2 gap-10 lg:gap-0 h-fit"
+        >
+          <ul
+            class="flex flex-col gap-2 text-small lg:flex-row lg:justify-between lg:w-full lg:items-center"
+          >
+            <li>
+              <a
+                href="#"
+                class="text-YoungGreen decoration-1 underline underline-offset-2 lg:text-[16px] font-semibold"
+                >Beranda</a
+              >
+            </li>
+            <li>
+              <a href="#tentang" class="lg:text-[16px] font-semibold"
+                >Tentang</a
+              >
+            </li>
+            <li>
+              <a href="#produk" class="lg:text-[16px] font-semibold">Produk</a>
+            </li>
+            <li>
+              <a href="#layanan" class="lg:text-[16px] font-semibold"
+                >Layanan</a
+              >
+            </li>
+            <li>
+              <a href="#testimoni" class="lg:text-[16px] font-semibold"
+                >Testimoni</a
+              >
+            </li>
+          </ul>
+        </section>
+        <section
+          class="h-[9.5rem] flex flex:col items-end lg:h-auto lg:flex-row"
+        >
+          <a
+            href="#"
+            class="py-2 px-6 bg-Wisteria rounded-3xl font-semibold h-fit"
+            >Kontak</a
+          >
+        </section>
+      </section>
+    </nav>
+    <section
+      class="layar-hitam fixed h-[100vh] left-0 right-0 top-0 hidden"
+    ></section>
+
+    <main class="lg:pt-32 bg-Gray2">
+      <section
+        class="flex gap-10 pt-28 pb-16 md:pt-40 lg:pt-0 lg:mt-0 px-5 md:pl-10 md:pr-[5.5rem] lg:pl-20 lg:pr-20 lg:justify-between lg:items-center lg:pb-20"
+      >
+        <section class="flex flex-col gap-5">
+          <h1
+            class="text-3xl md:text-4xl font-extrabold max-w-72 md:max-w-80 lg:max-w-[40rem] lg:text-[60px] lg:leading-[70.44px] flex flex-wrap gap-x-2 items-center"
+          >
+            <span class="flex items-center h-4 md:h-6 lg:h-8 w-fit px-1 lg:my-5"
+              ><p>Aroma</p></span
+            >
+            <p>Kopi yang</p>
+            <p>memanggil</p>
+            <span class="flex items-center h-4 md:h-6 lg:h-8 w-fit px-1 lg:my-5"
+              ><p>jiwa</p></span
+            >
+          </h1>
+          <p
+            class="max-w-[28rem] md:max-w-[27rem] lg:text-[18px] lg:font-medium lg:leading-[32px] font-medium"
+          >
+            Secangkir semangat untuk memulai hari dan secangkir ketenangan untuk
+            mengakhiri hari
+          </p>
+          <a
+            href="#"
+            class="py-2 px-4 bg-Wisteria rounded-[100px] font-bold lg:text-[16px] lg:py-[20px] lg:px-[30px] w-fit"
+            >Kepoin yuk</a
+          >
+        </section>
+        <section class="hidden md:block">
+          <img
+            src="./assets/banner.png"
+            alt="banner_hero"
+            class="hidden md:block"
+          />
+        </section>
+      </section>
+
+      <section
+        id="tentang"
+        class="py-16 px-5 md:px-10 lg:px-20 md:pt-32 lg:pb-32 bg-white"
+      >
+        <section class="flex items-center gap-5 m-auto w-fit">
+          <section class="w-20 h-1 bg-Wisteria"></section>
+          <h2
+            class="font-extrabold text-2xl md:text-3xl lg:text-[50px] text-center"
+          >
+            Tentang
+          </h2>
+          <section class="w-20 h-1 bg-Wisteria"></section>
+        </section>
+        <p
+          class="text-center text-ForestGreen lg:text-[18px] font-medium lg:mt-5"
+        >
+          Lebih dari sekadar kopi, ini pengalaman.
+        </p>
+
+        <section class="flex justify-between mt-20 flex-wrap">
+          <section>
+            <h2 class="text-2xl font-semibold">Kopi yang tak terlupakan</h2>
+            <p class="mt-2 font-medium max-w-[40rem] leading-8">
+              Cafe dengan suasana yang nyaman dapat membuat pengunjung merasa
+              rileks dan nyaman. Suasana ini dapat diciptakan dengan menggunakan
+              dekorasi yang minimalis dan elegan, serta pencahayaan yang lembut.
+            </p>
+
+            <section class="mt-10 font-semibold">
+              <h2 class="mb-2">Buka jam</h2>
+              <section class="font-medium">
+                <p>Senin - jum'at : 07:00 sampai 20:00</p>
+                <p>Sabtu : 07:00 sampai 23:00</p>
+                <p>Minggu : libur</p>
+              </section>
+            </section>
+          </section>
+
+          <section class="w-fit relative hidden lg:block">
+            <img
+              src="./assets/cafe.jpg"
+              alt="cafe"
+              class="max-w-[40vw] rounded-lg"
+            />
+            <img
+              src="./assets/minum-kopi.jpg"
+              alt="minum-kopi"
+              class="max-w-[25vw] rounded-lg absolute -bottom-24 -left-52"
+            />
+          </section>
+        </section>
+      </section>
+
+      <section class="md:pt-20 bg-white">
+        <section
+          class="py-10 pl-5 pr-2 md:pl-10 md:pr-4 lg:pr-20 lg:pl-20 bg-Gray2 md:py-20 flex justify-between flex-wrap items-center md:gap-20 lg:gap-0"
+        >
+          <section>
+            <h2 class="text-2xl md:text-3xl lg:text-[32px] font-bold">
+              Pemimpin yang berjiwa kopi
+            </h2>
+            <p
+              class="mt-2 md:text-lg lg:text-[18px] lg:leading-[32px] text-ForestGreen font-medium max-w-[40rem]"
+            >
+              sosok yang penting dalam keberhasilan sebuah cafe kopi. Mereka
+              bertanggung jawab atas keseluruhan operasional cafe, mulai dari
+              manajemen, pemasaran, hingga pelayanan. Pemilik cafe kopi yang
+              sukses adalah sosok yang mampu menciptakan cafe kopi yang menjadi
+              tempat favorit bagi para pecinta kopi.
+            </p>
+
+            <section class="mt-5">
+              <blockquote class="italic font-semibold">
+                "Wong saya suka kok"
+              </blockquote>
+              <p class="ml-20 italic font-medium">- Pepatah china</p>
+            </section>
+          </section>
+          <section class="mt-10 md:mt-0 md:ml-20 lg:ml-0 max-w-[30rem]">
+            <img src="./assets/leader.jpg" alt="" class="w-full rounded-lg" />
+          </section>
+        </section>
+      </section>
+
+      <section
+        id="produk"
+        class="pt-20 pb-10 md:py-20 md:px-10 pr-2 bg-white lg:px-20 md:pt-32"
+      >
+        <section class="flex items-center gap-5 m-auto w-fit">
+          <section class="w-20 h-1 bg-Wisteria"></section>
+          <h2
+            class="font-extrabold text-2xl md:text-3xl lg:text-[50px] text-center"
+          >
+            Produk Kami
+          </h2>
+          <section class="w-20 h-1 bg-Wisteria"></section>
+        </section>
+        <p
+          class="mt-2 text-ForestGreen font-medium text-[18px] text-center px-5 lg:mt-5"
+        >
+          Kopi seperti hidup, Ada pahitnya, ada manisnya.
+        </p>
+
+        <section class="flex gap-10 justify-around mt-20 flex-wrap">
+          <section class="max-w-[20rem] flex flex-col">
+            <img src="./assets/kopi1.jpg" alt="" class="rounded-lg" />
+            <p class="font-bold text-xl mt-4">Kopi Murni</p>
+            <p class="mt-1">
+              kopi yang disangrai dengan level roasting light plus dengan
+              temperatur yang rendah dan jauh di bawah standar dunia roasting
+            </p>
+            <p class="mt-4 font-semibold">Harga : 20k</p>
+          </section>
+          <section class="max-w-[20rem] flex flex-col">
+            <img src="./assets/kopi2.jpg" alt="" class="rounded-lg" />
+            <p class="font-bold text-xl mt-4">Kopi Hitam</p>
+            <p class="mt-1">
+              kopi yang disangrai dengan level roasting light plus dengan
+              temperatur yang rendah dan jauh di bawah standar dunia roasting
+            </p>
+            <p class="mt-4 font-semibold">Harga : 23k</p>
+          </section>
+          <section class="max-w-[20rem] flex flex-col">
+            <img src="./assets/kopi1.jpg" alt="" class="rounded-lg" />
+            <p class="font-bold text-xl mt-4">Kopi susu</p>
+            <p class="mt-1">
+              kopi yang disangrai dengan level roasting light plus dengan
+              temperatur yang rendah dan jauh di bawah standar dunia roasting
+            </p>
+            <p class="mt-4 font-semibold">Harga : 10k</p>
+          </section>
+        </section>
+      </section>
+
+      <section id="layanan" class="bg-white py-20 lg:px-20 md:pt-32">
+        <section class="flex items-center gap-5 m-auto w-fit">
+          <section class="w-20 h-1 bg-Wisteria"></section>
+          <h2
+            class="font-extrabold text-2xl md:text-3xl lg:text-[50px] text-center"
+          >
+            Layanan
+          </h2>
+          <section class="w-20 h-1 bg-Wisteria"></section>
+        </section>
+        <p
+          class="mt-2 text-ForestGreen font-medium text-[18px] text-center px-5 lg:mt-5"
+        >
+          Kopi yang nikmat dan layanan yang sempurna untuk hari yang sempurna
+        </p>
+
+        <section class="flex flex-wrap justify-around mt-20 gap-10">
+          <section
+            class="border w-60 p-4 flex flex-col items-center text-center min-h-60 rounded-lg shadow-lg hover:scale-105 transition-all"
+          >
+            <img
+              src="./assets/wifi-signal.png"
+              alt="wifi-signal"
+              class="w-14"
+            />
+            <p class="font-semibold mb-2 mt-5">Akses internet</p>
+            <p class="text-sm">
+              Kami menyediakan layanan Wi-Fi gratis untuk semua pengunjung
+            </p>
+          </section>
+          <section
+            class="border w-60 p-4 flex flex-col items-center text-center min-h-60 rounded-lg shadow-lg hover:scale-105 transition-all"
+          >
+            <img
+              src="./assets/customer-service.png"
+              alt="wifi-signal"
+              class="w-14"
+            />
+            <p class="font-semibold mb-2 mt-5">Pelayan ramah</p>
+            <p class="text-sm">
+              Nikmati kopi dan makanan lezat Anda dengan pelayanan yang ramah
+              dan profesional
+            </p>
+          </section>
+          <section
+            class="border w-60 p-4 flex flex-col items-center text-center min-h-60 rounded-lg shadow-lg hover:scale-105 transition-all"
+          >
+            <img
+              src="./assets/icons8-junk-food-64.png"
+              alt="wifi-signal"
+              class="w-14"
+            />
+            <p class="font-semibold mb-2 mt-5">Makanan ringan</p>
+            <p class="text-sm">
+              Kami menyediakan makanan ringan untuk semua pengunjung
+            </p>
+          </section>
+        </section>
+      </section>
+
+      <section id="testimoni" class="pt-20 md:pt-32 bg-white">
+        <section
+          class="flex bg-ForestGreen text-white justify-center flex-wrap lg:flex-nowrap items-center lg:px-20 py-10 md:py-14"
+        >
+          <img
+            src="./assets/testimoni-people.jpg"
+            alt=""
+            class="w-[20rem] h-[20rem] rounded-full"
+          />
+          <section
+            class="px-5 mt-10 md:px-10 lg:px-20 md:text-center flex justify-center items-center lg:text-start lg:-mt-10"
+          >
+            <section>
+              <h2 class="font-bold text-2xl mb-2 md:mb-4 md:text-[32px]">
+                Kata pelanggan kami
+              </h2>
+              <p
+                class="max-w-[27rem] lg:text-[18px] font-medium lg:leading-[32px] italic"
+              >
+                "Suasananya nyaman dan cocok untuk nongkrong sendirian atau
+                bersama teman. Kopinya juga enak, banyak pilihan biji kopi dan
+                racikannya. Baristanya ramah dan bisa kasih rekomendasi kopi
+                sesuai selera. Pokoknya, recommended banget!"
+              </p>
+              <p class="mt-4 italic">- agustin violet</p>
+            </section>
+          </section>
+        </section>
+      </section>
+    </main>
+
+    <footer
+      class="py-20 flex justify-around flex-wrap bg-white px-5 flex-col md:px-10 lg:flex-row"
+    >
+      <section class="w-[270px]">
+        <section class="flex items-center gap-4">
+          <img src="./assets/shape (1).svg" alt="" />
+          <p
+            class="font-semibold text-xl md:text-3xl lg:text-[28px] text-ForestGreen font-clash-display"
+          >
+            Cafeku
+          </p>
+        </section>
+        <p class="mt-5 font-medium text-ForestGreen leading-[28px]">
+          tempat yang nyaman dan menyenangkan, dengan pelayanan yang ramah dan
+          profesional.
+        </p>
+        <p class="text-ForestGreen text-[16px] font-medium mt-5">
+          Copyrights Cafeku.
+        </p>
+      </section>
+      <section
+        class="flex justify-around lg:w-2/3 flex-col md:flex-row md:justify-between md:w-full mt-10 gap-10 lg:mt-0"
+      >
+        <section>
+          <p
+            class="text-ForestGreen text-lg font-semibold text-[16px] font-Poppins"
+          >
+            Product
+          </p>
+          <ul
+            class="text-ForestGreen font-medium text-[16px] flex flex-col gap-2 mt-3"
+          >
+            <li>SaaS Web Builder</li>
+            <li>Copywriting Templates</li>
+            <li>Automation Tools</li>
+            <li>Users Tracking Behavior</li>
+          </ul>
+        </section>
+        <section>
+          <p
+            class="text-ForestGreen text-lg font-semibold text-[16px] font-Poppins"
+          >
+            Company
+          </p>
+          <ul
+            class="text-ForestGreen font-medium text-[16px] flex flex-col gap-2 mt-3"
+          >
+            <li>Privacy Policy</li>
+            <li>Help Center</li>
+            <li>Terms Conditions</li>
+            <li>About Us</li>
+          </ul>
+        </section>
+        <section>
+          <p
+            class="text-ForestGreen text-lg font-semibold text-[16px] font-Poppins"
+          >
+            Developer
+          </p>
+          <ul
+            class="text-ForestGreen font-medium text-[16px] flex flex-col gap-2 mt-3"
+          >
+            <li>API Documentations</li>
+            <li>Product Knowledges</li>
+            <li>Ticketing Support</li>
+            <li>Pricing</li>
+          </ul>
+        </section>
+      </section>
+    </footer>
+  </body>
+</html>
